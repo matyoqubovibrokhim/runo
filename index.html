@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta author="Ibrokhim Matyoqubov" content="Travel Website">
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<!-- Link Boxicon Icon -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!-- Link Css -->
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Runo Website</title>
+	<style>
+		.swiper {
+			width: 100%;
+			height: 100vh;
+		}
+
+		.swiper-pagination {
+			bottom: 30px !important;
+		}
+
+		.swiper-pagination-bullet {
+			background-color: #333 !important;
+			width: 8px !important;
+			height: 8px !important;
+			opacity: 0.7 !important;
+		}
+
+		.swiper-pagination-bullet-active {
+			background-color: #fff !important;
+			opacity: 1 !important;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="scrollTop-btn">
+		<i class='bx bxs-chevron-up'></i>
+	</div>
+
+	<!-- Header section -->
+	<header>
+		<div class="logo">
+			<a href="./index.html">RUNO</a>
+		</div>
+		<div class="menu-btn"></div>
+		<div class="navigation">
+			<nav>
+				<ul>
+					<li>
+						<a class="active" href="#main">Home</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#articles">Articles</a>
+					</li>
+					<li>
+						<a href="#editors">Editors</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="social-media">
+				<ul>
+					<li>
+						<a><i class='bx bxl-facebook-circle'></i></a>
+					</li>
+					<li>
+						<a><i class='bx bxl-twitter'></i></a>
+					</li>
+					<li>
+						<a><i class='bx bxl-youtube'></i></a>
+					</li>
+					<li>
+						<a><i class='bx bxl-pinterest'></i></a>
+					</li>
+					<li>
+						<a><i class='bx bxl-instagram-alt'></i></a>
+					</li>
+					<li>
+						<button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</header>
+	<!-- End of Heador section -->
+
+	<div class="swiper mySwiper">
+		<div class="swiper-wrapper">
+			<section class="main swiper-slide" id="main">
+				<div class="main-content disabled">
+					<span class="span-title">Adventure</span>
+					<h1>
+						Richird Norton photorealistic <br>
+						rendering as real photos
+					</h1>
+					<p>Progressively incentivize cooperative systems through technically sound <br>functionalities.
+						The credibly productivate seamless data.
+					</p>
+				</div>
+			</section>
+			<section class="main swiper-slide swiper-slide2">
+				<div class="main-content disabled">
+					<span class="span-title">Adventure</span>
+					<h1>
+						Richird Norton photorealistic <br>
+						rendering as real photos
+					</h1>
+					<p>Progressively incentivize cooperative systems through technically sound <br>functionalities.
+						The credibly productivate seamless data.
+					</p>
+				</div>
+			</section>
+			<section class="main swiper-slide swiper-slide3">
+				<div class="main-content disabled">
+					<span class="span-title">Adventure</span>
+					<h1>
+						Richird Norton photorealistic <br>
+						rendering as real photos
+					</h1>
+					<p>Progressively incentivize cooperative systems through technically sound <br>functionalities.
+						The credibly productivate seamless data.
+					</p>
+				</div>
+			</section>
+		</div>
+		<div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+
+	<!-- End of Main section -->
+
+	<!-- About section -->
+	<section class="about" id="about">
+		<h2 class="section-title">Popular topics</h2>
+		<div class="filter-btn"></div>
+		<div class="filter">
+			<ul>
+				<li><a data-tab class="active">All</a></li>
+				<li><a data-tab>Advanture</a></li>
+				<li><a data-tab>Travel</a></li>
+				<li><a data-tab>Fashion</a></li>
+				<li><a data-tab>Technology</a></li>
+				<li><a data-tab>Branding</a></li>
+			</ul>
+			<ul style="width: 55px;">
+				<li><a>View All</a></li>
+			</ul>
+		</div>
+
+		<div class="responsive-filter">
+			<select>
+				<option value="All">All</option>
+				<option value="Advanture">Advanture</option>
+				<option value="Travel">Travel</option>
+				<option value="Fashion">Fashion</option>
+				<option value="Technology">Technology</option>
+				<option value="Branding">Branding</option>
+			</select>
+			<ul>
+				<li><a>View All</a></li>
+			</ul>
+		</div>
+		<div class="about-content">
+
+			<!-- N1 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/photo_1.jfif" alt="card-image">
+					<span class="span-title">Advanture</span>
+				</div>
+				<a class="card-text">
+					<span class="date">08.08.2021</span>
+					<h3>Dream destinations to visit this
+						year in Paris
+					</h3>
+					<p>Progressively incentivize cooperative systems through
+						technically sound functionalities. Credibly productivate
+						seamless data with flexible schemas.
+					</p>
+				</a>
+			</div>
+
+			<!-- N2 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/photo_2.jfif" alt="card-image">
+					<span class="span-title">Travel</span>
+				</div>
+				<a class="card-text">
+					<span class="date">08.08.2021</span>
+					<h3>Breathtaking first-person photos
+						around Europe
+					</h3>
+					<p>Progressively incentivize cooperative systems through
+						technically sound functionalities. Credibly productivate
+						seamless data with flexible schemas.
+					</p>
+				</a>
+			</div>
+
+
+			<!-- N3 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/photo_3.jfif" alt="card-image">
+					<span class="span-title">Technology</span>
+				</div>
+				<a class="card-text">
+					<span class="date">08.08.2021</span>
+					<h3>What collectors need to know about
+						authenticity
+					</h3>
+					<p>Progressively incentivize cooperative systems through
+						technically sound functionalities. Credibly productivate
+						seamless data with flexible schemas.
+					</p>
+				</a>
+			</div>
+
+			<!-- N4 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/photo_7.jfif" alt="card-image">
+					<span class="span-title">Fashion</span>
+				</div>
+				<a class="card-text">
+					<span class="date">08.08.2021</span>
+					<h3>Instagram artists with great
+						photography skills
+					</h3>
+					<p>Progressively incentivize cooperative systems through
+						technically sound functionalities. Credibly productivate
+						seamless data with flexible schemas.
+					</p>
+				</a>
+			</div>
+
+			<!-- N5 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/photo_5.jfif" alt="card-image">
+					<span class="span-title">Advanture</span>
+				</div>
+				<a class="card-text">
+					<span class="date">08.08.2021</span>
+					<h3>Thins to know before visiting
+						Cave in Germany
+					</h3>
+					<p>Progressively incentivize cooperative systems through
+						technically sound functionalities. Credibly productivate
+						seamless data with flexible schemas.
+					</p>
+				</a>
+			</div>
+
+			<!-- N6 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/photo_6.jfif" alt="card-image">
+					<span class="span-title">Fashion</span>
+				</div>
+				<a class="card-text">
+					<span class="date">08.08.2021</span>
+					<h3>Nina Smith vibrant work collab
+						with Nike Dunk
+					</h3>
+					<p>Progressively incentivize cooperative systems through
+						technically sound functionalities. Credibly productivate
+						seamless data with flexible schemas.
+					</p>
+				</a>
+			</div>
+
+			<!-- N7 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/photo_7.jfif" alt="card-image">
+					<span class="span-title">Technology</span>
+				</div>
+				<a style="cursor: pointer; text-decoration: none;" href="./posts.html" class="card-text">
+					<span class="date">08.08.2021</span>
+					<h3>Richard Norton photorealistic
+						rendering as real photos
+					</h3>
+					<p>Progressively incentivize cooperative systems through
+						technically sound functionalities. Credibly productivate
+						seamless data with flexible schemas.
+					</p>
+				</a>
+			</div>
+
+			<!-- N8 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/photo_8.jfif" alt="card-image">
+					<span class="span-title">Branding</span>
+				</div>
+				<a class="card-text">
+					<span class="date">08.08.2021</span>
+					<h3>25 quality collectors toys inspired
+						by famous films
+					</h3>
+					<p>Progressively incentivize cooperative systems through
+						technically sound functionalities. Credibly productivate
+						seamless data with flexible schemas.
+					</p>
+				</a>
+			</div>
+
+		</div>
+	</section>
+	<!-- End of About section -->
+
+	<!-- Articles section -->
+	<section class="articles" id="articles">
+		<div class="articles-content">
+			<span class="span-title">Fashion</span>
+			<h2>Richird Norton photorealistic <br> rendering as real photos</h2>
+			<p>Progressively incentivize cooperative systems through technically sound <br> functionalities. The
+				credibly
+				productivate seamless data.</p>
+			<span class="date">08.08.2021</span>
+		</div>
+	</section>
+	<!-- End of Articles section -->
+
+	<!-- Editors section -->
+	<section class="editors" id="editors">
+		<h2 class="section-title">Editor’s Pick</h2>
+		<div class="editors-content">
+
+			<!-- N1 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/editors_image-1.jfif" alt="editor-image">
+					<span class="span-title">Fashion</span>
+					<div class="card-text">
+						<span class="date">08.08.2021</span>
+						<h3>Richird Norton photorealistic <br> rendering as real photos
+						</h3>
+						<p>Progressively incentivize cooperative systems through <br> technically sound functionalities. The
+							credibly productivate seamless data.
+						</p>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- N2 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/editors_image-2.jfif" alt="editor-image">
+					<span class="span-title">Fashion</span>
+					<div class="card-text">
+						<span class="date">08.08.2021</span>
+						<h3>Richird Norton photorealistic <br> rendering as real photos
+						</h3>
+						<p>Progressively incentivize cooperative systems through <br> technically sound functionalities. The
+							credibly productivate seamless data.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- N3 -->
+			<div class="card">
+				<div class="card-image">
+					<img src="./images/editors_image-3.jfif" alt="editor-image">
+					<span class="span-title">Fashion</span>
+					<div class="card-text">
+						<span class="date">08.08.2021</span>
+						<h3>Richird Norton photorealistic <br> rendering as real photos
+						</h3>
+						<p>Progressively incentivize cooperative systems through <br> technically sound functionalities. The
+							credibly productivate seamless data.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of Editors section -->
+
+	<!-- Contact -->
+	<div class="contact" id="contact">
+		<div class="contact-container">
+			<!-- 1 -->
+			<div class="contact-box">
+				<div>
+					<h4>Contact the Publisher</h4>
+				</div>
+				<ul>
+					<li>
+						<a>mike@runo.com</a>
+					</li>
+					<li>
+						<a>+944 450 904 505</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- 2 -->
+			<div class="contact-box">
+				<div>
+					<h4>Explorate</h4>
+				</div>
+				<ul>
+					<li><a>About</a></li>
+					<li><a>Partners</a></li>
+					<li><a>Job Opportunities</a></li>
+					<li><a>Advertise</a></li>
+					<li><a>Membership</a></li>
+				</ul>
+			</div>
+
+			<!-- 3 -->
+			<div class="contact-box">
+				<div>
+					<h4>HeadCuarter</h4>
+				</div>
+				<ul>
+					<li><a>191 Middleville Road</a></li>
+					<li><a>NY 1001, Sydney</a></li>
+					<li><a>Australia</a></li>
+				</ul>
+			</div>
+
+			<!-- 4 -->
+			<div class="contact-box">
+				<div>
+					<h4>Connections</h4>
+				</div>
+				<ul class="social-networks">
+					<li>
+						<a><i class='bx bxl-facebook-circle'></i></a>
+					</li>
+					<li>
+						<a><i class='bx bxl-twitter'></i></a>
+					</li>
+					<li>
+						<a><i class='bx bxl-youtube'></i></a>
+					</li>
+					<li>
+						<a><i class='bx bxl-pinterest'></i></a>
+					</li>
+					<li>
+						<a><i class='bx bxl-instagram-alt'></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End of Contact -->
+
+	<!-- Footer Section -->
+	<footer>
+		<p>2021 | RUNO Publisher Studio</p>
+		<p>Subscribe Now</p>
+	</footer>
+	<!-- End of Footer section -->
+
+	<script src="./js/script.js"></script>
+
+	<!-- Swiper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			spaceBetween: 0,
+			speed: 1500,
+			centeredSlides: true,
+			loop: false,
+			autoplay: {
+				delay: 7000,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+		})
+	</script>
+</body>
+
+</html>
