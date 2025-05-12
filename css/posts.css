@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	font-family: 'Lora', sans-serif;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
 }
 
 /* Header section */
